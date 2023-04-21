@@ -1,0 +1,16 @@
+.card-title {
+    color: blue;
+    font-size: 20px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .card-img-top {
+    border-radius: 10px;
+  }
+
+
+  
