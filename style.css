@@ -1,16 +1,21 @@
-.card-title {
-    color: blue;
-    font-size: 20px;
-  }
-  
-  .card-text {
-    font-size: 14px;
-    line-height: 1.5;
-  }
-  
-  .card-img-top {
-    border-radius: 10px;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
+h5,
+p {
+    font-family: 'Oswald', sans-serif;
+}
 
-  
+h5 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 15px;
+    color:rgba(0, 0, 0,.8);
+}
+
+/* Set the opacity of the card image to 0.8 on hover */
+.card-img-top:hover {
+    opacity: 0.8;
+}
